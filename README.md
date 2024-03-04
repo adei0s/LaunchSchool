@@ -1,1 +1,2 @@
-# first repository
+# LaunchSchool
+LaunchSchool Projects
