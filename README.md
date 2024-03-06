@@ -1,3 +1,2 @@
 # LaunchSchool
 LaunchSchool Projects
-changes
