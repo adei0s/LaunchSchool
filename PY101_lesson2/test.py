@@ -1,13 +1,5 @@
-try:
-    num_str = input("Enter a number: ")
-    num = int(num_str)
+input()
 
-    result = 10 / num
-except ValueError:
-    print("Invalid input. Please enter a valid number.")
-except ZeroDivisionError:
-    print("Cannot divide by zero.")
-else:
-    print(f"Result: {result}")
-finally:
-    print("Exception handling complete.")
+num_list = input().split()
+
+print(num_list)
