@@ -8,8 +8,8 @@ num6 = input("enter the 6th number: ")
 lst = [num1, num2, num3, num4, num5]
 
 if num6 in lst:
-    print(f'{num6} is in {",".join(lst)}')
+    print(f"{num6} is in {','.join(lst)}")
 else:
-    print(f'{num6} isn\'t in {",".join(lst)}')
+    print(f"{num6} isn't in {','.join(lst)}")
     
 
