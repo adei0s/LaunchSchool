@@ -17,7 +17,7 @@ ask if want to play again
 
 '''
 
-import pdb
+
 import random
 import os
 
@@ -75,7 +75,6 @@ def computer_move(board):
     if len(empty_spaces(board)) == 0:
         return
     
-    breakpoint()
     if offense(board):
         move = offense(board)
     elif defense(board):
