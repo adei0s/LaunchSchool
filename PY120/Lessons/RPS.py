@@ -24,7 +24,7 @@ class Computer(Player):
         super().__init__()
         
     def choose(self):
-        self.move = random.choices(Player.MOVES)
+        self.move = random.choices(Player.MOVES)[0]
 
 class RPSGame:
     def __init__(self):
@@ -70,8 +70,9 @@ class RPSGame:
             self._computer.choose()
             self._display_winner()
             if not self._play_again():
+                self._goodbye()
                 break
-            self._goodbye()
+            
 
 a_game = RPSGame()
 a_game.play()
